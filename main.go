@@ -6,10 +6,7 @@ import "math"
 func main() {
 
 	var opt int
-	var (
-		a float64
-		b float64
-	)
+	
 
 	fmt.Println("Enter the number of the option you want")
 	fmt.Println("1. Square area")
@@ -18,7 +15,14 @@ func main() {
 	fmt.Println("4. F to C degrees")
 	fmt.Println("Press any other number to exit")
 
-	fmt.Scan(&opt)
+	fmt.Scan(&opt)	
+}
+
+func operations(opt int) {
+	var (
+		a float64
+		b float64
+	)
 	switch opt {
 	case 1:
 		fmt.Println("***Square Area***")
@@ -49,5 +53,4 @@ func main() {
 	default: 
 		fmt.Println("Bye")
 	}
-	
 }
