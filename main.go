@@ -52,6 +52,6 @@ func operations(opt int) {
 		fmt.Println("It's ", (a-32)*5/9, " Celsius degrees")
 		main()
 	default: 
-		fmt.Println("Bye")
+		fmt.Println("Thanks for using me")
 	}
 }
