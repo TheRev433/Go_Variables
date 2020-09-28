@@ -9,6 +9,7 @@ func main() {
 	
 	
 	fmt.Println("Welcome to my programm")
+	fmt.Println("Hello user!")
 	fmt.Println("Enter the number of the option you want")
 	fmt.Println("1. Square area")
 	fmt.Println("2. Triangle area")
