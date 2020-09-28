@@ -11,6 +11,9 @@ func main() {
 		b float64
 	)
 
+	fmt.Println("Welcome!")
+
+
 	fmt.Println("Enter the number of the option you want")
 	fmt.Println("1. Square area")
 	fmt.Println("2. Triangle area")
